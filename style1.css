@@ -1,0 +1,87 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #f73737;
+    font-size: 500%;
+    margin-top: -17cm;
+}
+
+
+button {
+    background-color: #000000;
+    color: rgb(213, 48, 48);
+    font-size: 200%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 35%;
+    margin-top: 3%;
+}
+
+
+.img1{
+    width: 10%;
+    margin-left: 88%;
+}
+
+
+.img2{
+    width: 10%;
+    margin-left: 88%;
+}.img3{
+    width: 10%;
+    margin-left: 88%;
+
+
+}.img4{
+    width: 10%;
+    margin-left: 88%;
+}
+
+
+.img5{
+    width: 10%;
+    margin-top: -48%;
+}
+
+
+.img6{
+    width: 10%;
+}.img7{
+    width: 10%;
+
+
+}.img8{
+    width: 10%;
+}
+
+
+input {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 3.5cm;
+    height: 2cm;
+    font-size: 300%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#operator {
+    background-color: #3f3f3f;
+    color: antiquewhite;
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 1cm;
+    height: 1cm;
+}
+
+
+#result {
+    font-size: 300%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

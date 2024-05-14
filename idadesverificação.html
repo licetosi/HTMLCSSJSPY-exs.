@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Verificador de idades</title>
+</head>
+
+
+<body>
+
+
+    <div class="img1">
+        <img src="imgproibido.png">
+    </div>
+    <div class="img2">
+        <img src="imgproibido.png">
+    </div><div class="img3">
+        <img src="imgproibido.png">
+    </div><div class="img4">
+        <img src="imgproibido.png">
+    </div><div class="img5">
+        <img src="imgproibido.png">
+    </div><div class="img6">
+        <img src="imgproibido.png">
+    </div><div class="img7">
+        <img src="imgproibido.png">
+    </div><div class="img8">
+        <img src="imgproibido.png">
+    </div>
+   
+    <h1>VERIFICADOR DE IDADES: INSIRA SEU ANO DE NASCIMENTO</h1>
+
+
+    <div id="Um">
+        <input type="number" id="num1">
+    </div>
+
+
+    <!-- determina o local para inserir o ano de nascimento -->
+
+
+    <button onclick="verificarIdade()">Verificador</button>
+
+
+    <!-- vai criar um botão que direcionará para a function -->
+
+
+    <p id="result"></p>
+
+
+    <script>
+        function verificarIdade() {
+            var num1Val = parseFloat(num1.value);
+            var result = document.getElementById('result');
+
+
+            if (num1Val <= 2005) {
+                result.textContent = 'Se você nasceu em '+ num1Val +' e já fez aniversário esse ano, então você tem ' + (2023-num1Val) + ' anos e é maior de idade.  Caso não tenha feito ainda, você tem ' + (2022-num1Val) +'.';
+            } else if (num1Val >= 0) {
+                result.textContent = 'Se você nasceu em '+ num1Val +' e já fez aniversário esse ano, então você tem ' + (2023-num1Val) + ' anos. Caso não tenha feito ainda, você tem ' + (2022-num1Val) +' e ainda é menor de idade.';
+            } else {
+                result.textContent = 'Idade inválida.';
+            }
+        }
+       
+        // nessa lista de "if, else if e else", o programa vai ler na ordem até que uma das afirmações seja verdadeira
+
+
+    </script>
+
+
+</body>
+</html>
